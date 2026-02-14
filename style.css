@@ -1,0 +1,88 @@
+body
+{
+    background-color: white;
+    max-height: 100vh;
+    max-width: 100vw;
+    border: double 2px black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: black;
+    transition: background-color 0.3s ,color 0.3s;
+}
+body.dark
+{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav :nth-child(1)
+{
+    margin-right: auto;
+}
+.nav :nth-child(5)
+{
+    margin-left: auto;
+}
+a
+{
+    color: rgb(126, 90, 216);
+    text-shadow: 3px 4px 10px;
+}
+a:hover
+{
+    color: rgb(96, 187, 225);
+    font-size: 1.04em;
+    font-family: sans-serif;
+}
+#toggleBTN
+{
+    background: none;
+    border: none;
+}
+h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    border: groove 2px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+#homepara1
+{
+    width: 40vw;
+    text-align: start;
+    font-size: 18px;
+    margin-right: auto;
+}
+#homepara2
+{
+    width: 40vw;
+    text-align: end;
+    font-size: 18px;
+    margin-left: auto;
+}
+#homepara3
+{
+    width: 40vw;
+    text-align: start;
+    font-size: 18px;
+    margin-right: auto;
+}
+#footer
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 2px groove black;
+    border-radius: 40px;
+}
