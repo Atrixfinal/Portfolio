@@ -1,0 +1,13 @@
+#h1
+{
+    display: inline-block;
+    padding: 1%;
+    border: 2px dashed transparent;
+    border-radius: 30px;
+    background:
+        linear-gradient(white,white) padding-box,
+        linear-gradient(to right, black, transparent),border-box;
+    text-align: center;
+    font-family: "BROWNFOX",sans-serif;
+    font-size: 130%;
+}
