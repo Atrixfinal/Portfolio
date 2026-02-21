@@ -6,26 +6,68 @@ h1
     border-radius: 50px;
     margin-top: 30px;
 }
+.homeparas
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 #homepara1
 {
     width: 40vw;
-    text-align: start;
-    font-size: 18px;
-    margin-right: auto;
+    height: 40vh;
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    align-items: center;
+}
+#p1box
+{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    border-radius: 20px;
+    height: 35vh;
+    width: 40vw;
+    background: linear-gradient(to right ,rgb(62, 137, 154) , rgb(57, 57, 87));
 }
 #homepara2
 {
-    width: 40vw;
-    text-align: end;
-    font-size: 18px;
     margin-left: auto;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    align-items: center;
+}
+#p2box
+{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    border-radius: 20px;
+    height: 35vh;
+    width: 40vw;
+    background: linear-gradient(to right , rgb(57, 57, 87) ,rgb(62, 137, 154));
 }
 #homepara3
 {
     width: 40vw;
-    text-align: start;
-    font-size: 18px;
-    margin-right: auto;
+    height: 40vh;
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    align-items: center;
+}
+#p3box
+{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    border-radius: 20px;
+    height: 35vh;
+    width: 40vw;
+    background: linear-gradient(to right ,rgb(62, 137, 154) , rgb(57, 57, 87) );
 }
 #footer
 {
