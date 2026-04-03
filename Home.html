@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="header"><!-- if i needed --></header>
+        <nav class="nav">
+            <button class="slinks" href="Home" class="active">Home</a>
+            <button class="slinks" href="Skills">Skills</a>
+            <button class="slinks" href="Projects">Projects</a>
+            <button class="slinks" href="About">About ME</a>
+            <button id="toggleBTN">☀️</button>
+        </nav>
+        <main class="main-content">
+            
+            <section id="home" class="section ">
+                <h1 class="hero-container">
+                    <h2 class="title">Welcome to My</h2>
+                    <h1 class="title"><span>Portfolio</span></h1>
+                </h1>
+                <div id="homeparas" class="box-grid">
+                    <div id="homec1" class="intro-para">
+                        <div id="homep1img"></div>
+                            <p id="homep1">
+                                I am currently a student of Computer Science, majoring in Artificial Intelligence (AI) and Data Science (DS).
+                                Along with my core subjects , I'm exploring Full Stack Web Development and Android App Development to build 
+                                a solid foundation in coding while learning advanced topics like LLM's and Data Structures & Algorithms.
+                            </p>
+                    </div>
+                    <div id="homec2" class="intro-para">
+                        <div id="homep2img"></div>
+                        <p id="homep2">
+                            Beyond programming, I have also developed a strong interest in Visual Editing and VFX.
+                            What started as curiosity soon became a creative passion allowing me to combine storytelling and
+                            visuals into impactful designs. My editing style focuses on clean transitions, cinematic effects,
+                            and engaging motion to bring every concept to life.
+                        </p>
+                    </div>
+                    <div id="homec3" class="intro-para">
+                        <div id="homep3img"></div>
+                        <p id="homep3">
+                            You can check out some of my work in the <span><a class="slinks" href="Projects.html">Projects</a><span> section.
+                            If you'd like to collaborate or work with me in the future, feel free to
+                            <span><a class="slinks" href="About.html">get in touch</a></span>. I'm always open to creative ideas and challenging projects.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section scrollreveal">
+                <div class="heading">
+                    <h2 id="skillh1">MY <span class="section-big-word">Expertise</span></h2>
+                    <p id="skillheadpara">Technologies and tools I use to bring ideas to life.</p>
+                </div>
+                <div class="skill-grid">
+                    <div id="skill-core scrollreveal">
+                        <div class="skill-icon" id="skill-icon-core"></div>
+                        <span><h3>Core Language</h3></span>
+                        <p>Languages which i have learnt for core software development -</p>
+                        <div class="skill-tags">
+                            <span class="stag">C++</span>
+                            <span class="stag">Python</span>
+                            <span class="stag">React</span>
+                        </div>
+                    </div>
+                    <div id="skill-fs scrollreveal">
+                        <div class="skill-icon" id="skill-icon-fs"></div>
+                        <h3><span>FullStack Dev</span></h3>
+                        <p>Create creative, responsive, fast web application using -</p>
+                        <div class="skill-tags">
+                            <span class="stag">HTML5</span>
+                            <span class="stag">CSS3</span>
+                            <span class="stag">JavaScript (ES6+)</span>
+                        </div>
+                    </div>
+                    <div id="skill-bs scrollreveal">
+                        <div class="skill-icon" id="skill-icon-bs"></div>
+                        <h3><span>BackStack Dev</span></h3>
+                        <p>Implementation of dynamics and working of a website by using -</p>
+                        <div class="skill-tags">
+                            <span class="stag">Node.js</span>
+                            <span class="stag">Express</span>
+                        </div>
+                    </div>
+                    <div id="skill-db scrollreveal">
+                        <div class="skill-icon" id="skill-icon-db"></div>
+                        <span><h3>DataBase Management</h3></span>
+                        <p>Create DataBase for website and application using -</p>
+                        <div class="skill-tags">
+                            <span class="stag">MySQL 8.0</span>
+                            <span class="stag">MongoDB</span>
+                            <span class="stag">Postgre SQL</span>
+                        </div>
+                    </div>
+                    <div id="skill-graph scrollreveal">
+                        <div class="skill-icon" id="skill-icon-graph"></div>
+                        <span><h3>Graphics</h3></span>
+                        <p>Generate creative, pretty, animation, UI Degisn for Websites, Mobile apps by using -</p>
+                        <div class="skill-tags">
+                            <span class="stag">AFTER EFFECTS 2024</span>
+                            <span class="stag">DaVinci</span>
+                        </div>
+                    </div>
+                    <!--<div id="skill-ui scrollreveal">
+                        <div class="skill-icon" id="skill-icon-ui"></div>
+                        <span><h3>UI/UX</h3></span>
+                        <p>Generate creative, pretty, UI for Websites, Mobile apps by using -</p>
+                        <div class="skill-tags">
+                            <span class="stag"></span>
+                            <span class="stag"></span>
+                            <span class="stag"></span>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+            <section id="projects" class="section scrollreveal">
+                <div class="heading">
+                    <h2 id="projecth1">Look at the</h2><span class="section-big-word">WORK</span>
+                    <p>Projects i have done uptil now, they might be solo projects or group</p>
+                </div>
+                <div class="all-projects scrollreveal">
+                    <div class="project-container" id="proj1">
+                        <div id="project1" class="project">
+                            <h2 class="project-title">PORTFOLIO</h2>
+                            <h3 class="project-meta">Web Application</h3>
+                            <p class="project-desc">
+                                Built a fully custom portfolio to practice real-world frontend development,
+                                starting from design to deployment while maintaining full control over logic and code.
+                            </p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-overlay"></div>
+                            <img src="project1.png" alt="Web application sample" class="project-img">
+                        </div>
+                    </div>
+                    <div class="project-container" id="proj2">
+                        <div id="project2" class="project">
+                            <h2 class="project-title">Basics</h2>
+                            <h3 class="project-meta">Git Repo</h3>
+                            <p class="project-desc">
+                                Built a well-structured collection of programming notes and code, organized by
+                                difficulty and progress, and shared to help others learn and revise efficiently.
+                            </p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-overlay"></div>
+                            <img src="project2.png" alt="Git Repo" class="project-img">
+                        </div>
+                    </div>
+                    <div class="project-container" id="proj3">
+                        <div id="project3" class="project">
+                            <h2 class="project-title">SeekFuture</h2>
+                            <h3 class="project-meta">Web Application</h3>
+                            <p class="project-desc">
+                                Developed an AI-powered job and internship portal with semantic search using vector embeddings,
+                                improving result relevance beyond traditional keyword-based filtering.</p>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-overlay"></div>
+                            <img src="project3.png" alt="SeekFuture Dashboard" class="project-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <h2>Site Last Updated on 21 Feb 2026 By ABHINAV</h2>
+            </footer>
+            <script src="functionality.js"></script>
+        </main>
+    </body>
+</html>
