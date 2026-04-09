@@ -1,0 +1,51 @@
+:root
+{
+    --c-bg: #f8f9fa;
+    --c-surface: #ffffff;
+    --c-surface-hover: #f1f3f5;
+    --c-text: #212529;
+    --c-text-muted: #6c757d;
+    --c-border: #e9ecef;
+    --c-primary: #7048e8;
+    --c-primary-hover: #5f3dc4;
+    --c-secondary: #ff922b;
+    --c-gradient-1: #7048e8;
+    --c-gradient-2: #3bc9db;
+
+    --radii-sm: 8px;
+    --radii-md: 16px;
+    --radii-lg: 24px;
+    --radii-full: 999px;
+
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body.dark.mode
+{
+    --c-bg: #0b0c10;
+    --c-surface: #13151a;
+    --c-surface-hover: #1f2229;
+    --c-text: #f8f9fa;
+    --c-text-muted: #adb5bd;
+    --c-border: #2a2e37;
+    --c-primary: #845ef7;
+    --c-primary-hover: #9775fa;
+    --c-gradient-1: #9775fa;
+    --c-gradient-2: #3bc9db;
+    
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+html
+{
+    scroll-behavior: auto;
+    overflow-x: hidden;
+}
